@@ -5,52 +5,56 @@
   --color-white: hsl(0, 0%, 100%);
 }
 
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-  
-  body{
-    background-color:var(--color-slate-300);
-    font-family: "Outfit", sans-serif;
-  }
-  
-  .card{
-    max-width: 300px;
-    background-color: var(--color-white);
-    border-radius: 20px;
-    padding: 16px;
-    text-align: center;
-    margin: 55px auto;
-    box-shadow:3px 3px 3px #b8b7b761;
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-  img {
-    max-inline-size: 100%;
-    block-size: auto;
-    border-radius: 16px;
-  }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  
+  margin: 0;
+  background-color: var(--color-slate-300);
+  font-family: "Outfit", sans-serif;
+}
 
-  .caption-container{
-    margin:14px;
-  }
+.card {
+  max-width: 300px;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 3px 3px 3px #b8b7b761;
+}
 
-  .caption{
-    font-weight: 700;
-    font-size: 22px;
-    margin-bottom: 16px;  
-    line-height: 1.2;  
-    color:var(--color-slate-900)
-  }
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 16px;
+}
 
-  .sub-caption{
-    font-weight:400;
-    font-size: 15px;
-    letter-spacing: 0.2px;    
-    line-height: 1.4;
-    color: var(--color-slate-500)
-  }
+.caption-container {
+  margin: 14px;
+}
+
+.caption {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  color: var(--color-slate-900);
+}
+
+.sub-caption {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  color: var(--color-slate-500);
+}
